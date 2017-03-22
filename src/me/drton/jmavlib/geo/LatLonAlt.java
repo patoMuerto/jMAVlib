@@ -6,9 +6,9 @@ package me.drton.jmavlib.geo;
 public class LatLonAlt {
     public static double RADIUS_OF_EARTH = 6371000.0;
 
-    public final double lat;
-    public final double lon;
-    public final double alt;
+    public  double lat;
+    public  double lon;
+    public  double alt;
 
     public LatLonAlt(double lat, double lon, double alt) {
         this.lat = lat;
